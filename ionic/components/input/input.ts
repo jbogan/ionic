@@ -41,7 +41,7 @@ import {Platform} from '../../platform/platform';
  *  </ion-item>
  *
  *  <ion-item>
- *    <ion-labe fixed>Website</ion-label>
+ *    <ion-label fixed>Website</ion-label>
  *    <ion-input type="url"></ion-input>
  *  </ion-item>
  *
@@ -120,12 +120,12 @@ export class TextInput extends InputBase {
  *  </ion-item>
  *
  *  <ion-item>
- *    <ion-labe stacked>Message</ion-label>
+ *    <ion-label stacked>Message</ion-label>
  *    <ion-textarea [(ngModel)]="msg"></ion-textarea>
  *  </ion-item>
  *
  *  <ion-item>
- *    <ion-labe floating>Description</ion-label>
+ *    <ion-label floating>Description</ion-label>
  *    <ion-textarea></ion-textarea>
  *  </ion-item>
  * ```
